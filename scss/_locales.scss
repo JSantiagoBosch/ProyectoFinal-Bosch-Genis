@@ -1,0 +1,80 @@
+/* LOCALES */
+  .carousel-item {
+    transition: transform 2s ease-in-out;
+  }
+
+
+.fondo-locales {
+    background-image: url("../img/Banners/bannerStores.png");
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+  }
+  
+  .parrafo {
+    margin: 100px;
+    font-size: 2rem;
+    color: $color-blanco;
+  }
+  
+  .slide-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tam-img-carousel {
+    width: 100vh;
+  }
+
+  .tarjetaLocal {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121420;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  
+    img {
+      max-width: 100%;
+    }
+  
+    h3 {
+      text-transform: uppercase;
+      font-family: Sarabande W00 Regular, Arial;
+      font-size: 3rem;
+      color: $color-blanco;
+    }
+  
+    p {
+      color: $color-blanco;
+      margin: 10px 0;
+    }
+  
+    button {
+      background-color: $color-rojo;
+      color: $color-blanco;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #79120e;
+      }
+    }
+  
+    p {
+      font-size: 1.35rem;
+      margin: 3px;
+    }
+  }
+  

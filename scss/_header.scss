@@ -1,0 +1,53 @@
+// Header
+
+@mixin enlaces {
+  text-decoration: none;
+  color: $color-blanco;
+}
+
+.encabezado {
+    border-top: 20px solid $color-rojo;
+    background-color: #1a1a1a;
+  }
+  
+  .tamLogo {
+    width: 90px;
+  }
+  
+  .colorJubilus {
+    text-decoration: none;
+    color: $color-blanco;
+    font-family: Traditian, Arial;
+    font-size: 45px;
+  
+    &:hover {
+      color: #d4d4d4;
+    }
+  }
+  
+  .colorBoton {
+    background-color: #979797;
+  }
+  
+  .li-link {
+    padding: 5px;
+    @include enlaces;
+  }
+  
+  .fuentesNav {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    a:hover {
+      background-color: $color-rojo;
+      color: $color-blanco;
+      border: 1px solid #000000;
+      border-radius: 5px;
+    }
+  }
+  
+  .paddingLi {
+    padding-left: 10px;
+    padding-right: 10px;
+  }

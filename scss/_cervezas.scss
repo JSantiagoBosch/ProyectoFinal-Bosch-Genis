@@ -1,0 +1,107 @@
+/* Productos */
+
+.productos-index {
+    text-align: center;
+    margin: 10vh;
+    border-bottom: 1px solid #000;
+  }
+  
+  .sub-titulo {
+    border: none;
+    padding: 10px 20px;
+    background-color: $color-rojo;
+    border-radius: 5px;
+    color: $color-blanco;
+    margin-bottom: 25px;
+  }
+  
+  .tituloSection {
+    color: $color-blanco;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: Sarabande W00 Regular, Arial;
+  }
+  
+  .tarjeta {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121420;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    height: 100%;
+  
+    img {
+      height: 50%;
+      max-width: 100%;
+    }
+  
+    h3 {
+      text-transform: uppercase;
+      font-family: Sarabande W00 Regular, Arial;
+      font-size: 3rem;
+      color: $color-blanco;
+    }
+  
+    p {
+      color: $color-blanco;
+      margin: 10px 0;
+    }
+  
+    button {
+      background-color: $color-rojo;
+      color: $color-blanco;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+  
+      &:hover {
+        background-color: #79120e;
+      }
+    }
+  
+    p {
+      font-size: 1.35rem;
+      margin: 3px;
+    }
+  }
+  
+  .info-span {
+    color: $color-blanco;
+    font-weight: bold;
+  }
+
+  .fondo-cervezas {
+    background-image: url("../img/Banners/cervezas-14.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+  }
+  
+  .largo {
+    width: 70%;
+    margin-bottom: 75px;
+  }
+  
+  .btn-buscar {
+    border: 2px solid $color-rojo;
+    color: $color-blanco;
+  
+    &:hover {
+      border: 2px solid #72100d;
+      color: #f8f8f8;
+    }
+  }
+  
+
+  

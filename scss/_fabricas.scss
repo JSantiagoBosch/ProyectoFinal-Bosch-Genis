@@ -1,0 +1,109 @@
+/* FABRICAS */
+
+@mixin fondo-fabrica {
+  background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+    border: 1px solid #000;
+}
+
+.fondoFabrica12 {
+    background-image: url("../img/Fabricas/homeFabric12.png");
+    @include fondo-fabrica;
+  }
+  
+  .fondoPiloto {
+    background-image: url("../img/Fabricas/homePiloto.png");
+    @include fondo-fabrica;
+
+  }
+  
+  .fondoParque {
+    background-image: url("../img/Fabricas/homeDelParque.png");
+    @include fondo-fabrica;
+
+  }
+  
+  .btn-visitar {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5px 20px;
+    border: 4px solid $color-rojo;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: $color-blanco;
+    font-family: Sarabande W00 Regular, Arial;
+  }
+
+  /* FABRICAS */
+
+.fondo-fabricas {
+  background-image: url("../img/Banners/bannerBeers.png");
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-blanco;
+}
+
+.contenedor-fabrica {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  background-color: #3f2420;
+  overflow: hidden;
+  color: $color-blanco;
+}
+
+.card {
+  background-color: #3f2420;
+  color: $color-blanco;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body {
+  position: relative;
+  padding: 30px;
+}
+
+.card-img {
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}

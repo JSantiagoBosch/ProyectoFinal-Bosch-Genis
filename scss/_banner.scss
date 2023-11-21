@@ -1,0 +1,40 @@
+@mixin fuente {
+  text-transform: uppercase;
+  font-family: Sarabande W00 Regular, Arial;
+  text-align: center;
+}
+
+.fondo-index {
+    background-image: url("../img/Banners/franchise-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+  }
+  
+  .tituloCentral {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    max-width: 80%;
+  
+    h1 {
+      font-size: 6.5rem;
+      font-family: Traditian, Arial;
+      text-align: center;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+      @include fuente;
+    }
+  
+    h3 {
+      font-size: 3rem;
+      @include fuente;
+    }
+  }
+  

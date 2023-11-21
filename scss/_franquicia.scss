@@ -1,0 +1,17 @@
+/* FRANQUICIAS */
+
+.fondoFranquicia {
+    background-image: url("../img/Banners/home-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+  }
+  
+  .mt-10 {
+    margin-top: 100px;
+  }
+  
